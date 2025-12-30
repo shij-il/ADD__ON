@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #eef3ff;
+        }
+
+        header {
+            background: #3f51b5;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            margin-top: 8px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 18px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
+        .profile-icon {
+            position: absolute;
+            right: 25px;
+            top: 15px;
+            font-size: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .profile-icon:hover {
+            transform: scale(1.1);
+        }
+
+        .content {
+            max-width: 900px;
+            background: white;
+            padding: 30px;
+            margin: 40px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .contact-info b {
+            color: #3f51b5;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Contact Page</h1>
+
+    <div class="profile-icon" onclick="location.href='profile.html'">
+        👤
+    </div>
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="contact.html" style="text-decoration: underline;">Contact</a>
+        <a href="enq.html">Enquiry</a>
+        <a href="login.html">Logout</a>
+    </nav>
+</header>
+
+<div class="content">
+    <p>If you have any questions or need support, feel free to contact us.</p>
+
+    <div class="contact-info">
+        <p><b>Contact Number:</b> 3636475836</p>
+        <p><b>Email:</b> example@gmail.com</p>
+        <p><b>Address:</b> Kochi, Kerala, India</p>
+    </div>
+</div>
+
+</body>
+</html>

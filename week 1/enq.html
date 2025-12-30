@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enquiry</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #eef3ff;
+        }
+
+        header {
+            background: #3f51b5;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            margin-top: 8px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 18px;
+            font-size: 17px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
+        .profile-icon {
+            position: absolute;
+            right: 25px;
+            top: 15px;
+            font-size: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .profile-icon:hover {
+            transform: scale(1.1);
+        }
+
+        .content {
+            max-width: 900px;
+            background: white;
+            padding: 30px;
+            margin: 40px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .content h2 {
+            margin-top: 0;
+            color: #3f51b5;
+        }
+
+        label {
+            font-size: 18px;
+            color: #333;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: 2px solid #3f51b5;
+            border-radius: 8px;
+            font-size: 16px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #1a237e;
+            box-shadow: 0 0 5px rgba(63,81,181,0.5);
+        }
+
+        button {
+            margin-top: 20px;
+            background: #3f51b5;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #1a237e;
+            transform: scale(1.05);
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Enquiry Page</h1>
+
+    <div class="profile-icon" onclick="location.href='profile.html'">
+        👤
+    </div>
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="enq.html" style="text-decoration: underline;">Enquiry</a>
+        <a href="login.html">Logout</a>
+    </nav>
+</header>
+
+<div class="content">
+    <h2>Submit Your Enquiry</h2>
+
+    <form>
+        <label>Your Enquiry:</label>
+        <input type="text" name="enquiry" placeholder="Type your enquiry here...">
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>

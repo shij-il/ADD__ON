@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division</title>
+</head>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .simple-box {
+        background: #70f4d1;
+        color: black;
+        padding: 15px;
+        margin: 15px;
+        border: black 2px;
+        border-radius: 5px;
+    }
+    .flex-container{
+        display: flex;
+        gap:30;
+        padding:20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex-item{
+        background-color: #d092a2;
+        padding: 20px;
+        margin: 20px;
+        border: #bf0030 2px solid;   
+        width: 150px; 
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+        margin: 15px;
+        gap: 15px;
+    }
+    .grid-item{
+        background: #f7aef8;
+        padding: 20px;
+        border: 2px solid #000;
+        text-align: center;
+    }
+    .outer-box{
+        background: #f4b6e4;
+        padding: 20px;
+        border: 3px solid rgb(128, 7, 128);
+        margin: 20px;
+        border-radius: 15px;
+    }
+    .inner-box{
+        background: #ffffff;
+        padding: 15px;
+        border: 2px solid #000;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    .card-container{
+        display:flex;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card-item{
+        width:300px;
+        background: #f6c2e9;
+        padding: 30px;
+        border: #87277f 2px solid;
+        border-radius: 15px;
+        box-shadow: 0px 0px 8px #bbb;
+        transition: 0.3s;
+    }
+    .card-item:hover{
+        box-shadow: 0px 0px 15px #2c071a;
+        transform: scale(1.05);
+    }
+    footer{
+        background: rgb(0, 119, 128);
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+</style>
+<body>
+
+    <div class="simple-box">
+        <div>This is a simple div element with some styling.</div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item">flex1</div>
+        <div class="flex-item">flex2</div>
+        <div class="flex-item">flex3</div>
+        <div class="flex-item">flex4</div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">grid1</div>
+        <div class="grid-item">grid2</div>
+        <div class="grid-item">grid3</div>
+        <div class="grid-item">grid4</div>
+    </div>
+    <div class="outer-box">
+        Outer Box
+        <div class="inner-box">
+            Inner Box
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="card-item">card1</div>
+        <div class="card-item">card2</div>
+        <div class="card-item">card3</div>
+        <div class="card-item">card4</div>
+    </div>
+    <footer>
+        <P>divi</P>
+    </footer>
+
+</body>
+</html>

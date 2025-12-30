@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+    background: white;
+}
+
+.topbar {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #616469;
+}
+
+.icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.signin {
+    padding: 7px 15px;
+    border: 1px solid #1a73e8;
+    color: #1a73e8;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.logo {
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.g1 { color: #4285F4; }
+.g2 { color: #EA4335; }
+.g3 { color: #FBBC05; }
+.g4 { color: #4285F4; }
+.g5 { color: #34A853; }
+.g6 { color: #EA4335; }
+
+.search-box {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    padding: 12px 16px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.icon-left, .icon-right {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.btn-group {
+    margin-top: 25px;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    border: none;
+    background: #f8f9fa;
+    margin: 0 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.languages {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.languages a {
+    text-decoration: none;
+    margin: 0 5px;
+    color: #1a73e8;
+}
+
+.footer {
+    padding: 15px 20px;
+    border-top: 1px solid #eaeaea;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.footer a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+@media (max-width: 768px) {
+    .search-box {
+        width: 85%;
+    }
+    .logo {
+        font-size: 65px;
+    }
+}
