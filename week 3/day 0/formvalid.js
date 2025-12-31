@@ -10,7 +10,6 @@ rl.question("Enter username: ", (username) => {
 
     let isValid = true;
 
-    // Username validation
     if (username.trim() === "") {
       console.log("Username Error: Username is required");
       isValid = false;
@@ -22,7 +21,6 @@ rl.question("Enter username: ", (username) => {
       isValid = false;
     }
 
-    // Password validation
     if (password.trim() === "") {
       console.log("Password Error: Password is required");
       isValid = false;
@@ -34,7 +32,6 @@ rl.question("Enter username: ", (username) => {
       isValid = false;
     }
 
-    // Final result
     if (isValid) {
       console.log("\nLogin successful!");
     } else {
