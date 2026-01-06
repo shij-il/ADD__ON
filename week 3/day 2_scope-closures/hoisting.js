@@ -10,7 +10,6 @@ let b = 20;
 
 // eg-3
 hello();
-
 function hello() {
     console.log("Hello World");
 }
