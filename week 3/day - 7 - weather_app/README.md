@@ -87,7 +87,9 @@ Used to display dynamic data
 Extracts values from objects cleanly
 const { latitude, longitude } = geoData.results[0];
 ,
----
+
+```
+
 ## ▶️ How to Run the Project
 🔹 Method 1: Browser
 Open index.html
@@ -98,6 +100,7 @@ View weather details
 🔹 Method 2: Node.js (Logic Testing)
 Requires Node.js v18+
 node script.js
+
 
 ## ✅ Features Implemented
 
@@ -129,7 +132,7 @@ useEffect
 State management
 Async logic
 
-✅ Concepts Covered
+## ✅ Concepts Covered
 
 Fetch API
 Promises
@@ -139,5 +142,5 @@ Template literals
 Destructuring
 Clean code practices
 
-✨ Final Note
+## ✨ Final Note
 This project focuses on logic and understanding, making it ideal for React preparation, interviews, and real-world development.
