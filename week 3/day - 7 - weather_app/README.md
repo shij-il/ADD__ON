@@ -87,7 +87,8 @@ Used to display dynamic data
 Extracts values from objects cleanly
 const { latitude, longitude } = geoData.results[0];
 ,
-▶️ How to Run the Project
+---
+## ▶️ How to Run the Project
 🔹 Method 1: Browser
 Open index.html
 Enter city name
